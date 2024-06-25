@@ -1,0 +1,17 @@
+#root {
+  margin: 0 auto;
+}
+
+.btn-primary {
+  font-family: Poppins;
+  border-radius: 20px;
+  background-color: #D44D5C;
+  border:#D44D5C;
+}
+
+.btn-primary:hover {
+  font-family: Poppins;
+  border-radius: 20px;
+  background-color: #d44d5de3;
+  border:#D44D5C;
+}

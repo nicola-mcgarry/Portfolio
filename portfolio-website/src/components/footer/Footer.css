@@ -1,0 +1,25 @@
+.footer {
+    background-color: #F5E9E2;
+    color: #ccc;
+}
+
+.footer-curve {
+    position: absolute;
+    bottom: -1021px;    
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.footer-curve svg {
+    position: relative;
+    display: block;
+    width: calc(195% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.footer-curve .shape-fill {
+    fill: #F5E9E2;
+}
