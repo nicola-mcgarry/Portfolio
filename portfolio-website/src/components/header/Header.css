@@ -1,6 +1,6 @@
 .navbar {
     height: 90px;
-    background-color: #F5E9E2;
+    background-color: #f2f8fc;
 }
 /* Mobile Navigation */
 @media (max-width: 768px) {
@@ -40,12 +40,17 @@ ul {
 li a {
     font-size: 24px;
     text-decoration: none;
-    color: #D44D5C;
+    color: #161110;
     font-weight: 600;
 }
 
 .contact{
     font-size:20px;
+    color: #161110;
+    font-weight: 600;
+    background: linear-gradient(35deg, #d8357fcb,  #d44d5de3),
+                    linear-gradient(10deg, #c23cc79f, #d8357fcb),
+                    linear-gradient(10deg, #e6086c15, #d44d5de3);
 }
 
 .nav-links{

@@ -1,10 +1,29 @@
 #about {
-    height:90vh;
-    padding-top:300px;
+    height:80vh;
+    padding-top:200px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    color: #161110;              
+
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 span {
-    color: #D44D5C;
+    color: #f2f8fc;
 }
 
 .top-curve {
@@ -25,7 +44,17 @@ span {
 }
 
 .top-curve .shape-fill {
-    fill: #F5E9E2;
+    fill: #f2f8fc;
 }
 
+.intro {
+    border: 1px solid #1611102c;
+    border-radius: 40px;
+    width: 800px;
+    background-color: #1611102c;
+}
 
+.skillIcon {
+    color: #161110;
+    font-size: 30px
+}
