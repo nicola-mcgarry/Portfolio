@@ -3,7 +3,7 @@ import portfolio from '../../assets/thumbnails/portfolio-website.png'
 import './Projects.css'
 const Projects = () => {
     return(
-        <div id="projects" className="container p-5">
+        <div id="projects" className="container p-5 mt-5">
         <div className='d-flex justify-content-evenly'>
             <div className='project p-2'>
                 <img src={ACNH} alt="ACNH" className='projectImg'/>
@@ -20,9 +20,10 @@ const Projects = () => {
                     <a type="button" href="#contact" className="btn btn-primary projectLink">GitHub</a>
                     <a type="button" href="#contact" className="btn btn-primary projectLink">View project</a> 
                 </div>
+     
             </div>
-        </div>
             
+        </div>
         </div>
     );
 };

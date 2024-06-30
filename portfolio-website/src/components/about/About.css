@@ -1,12 +1,12 @@
 #about {
     height:80vh;
     padding-top:200px;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #D44D5C, #e73c7e, #D44D5C, #e73c7e);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
     color: #161110;              
-
+    padding: 218px 100px 0px 100px;
 }
 
 @keyframes gradient {
@@ -24,6 +24,10 @@
 
 span {
     color: #f2f8fc;
+}
+
+p{
+    font-weight:500;
 }
 
 .top-curve {
@@ -44,6 +48,26 @@ span {
 }
 
 .top-curve .shape-fill {
+    fill: #f2f8fc;
+}
+
+.bottom-curve {
+    position: absolute;
+    bottom: -109px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.bottom-curve svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 61px;
+}
+
+.bottom-curve .shape-fill {
     fill: #f2f8fc;
 }
 
