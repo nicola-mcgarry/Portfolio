@@ -2,33 +2,7 @@
     height: 90px;
     background-color: #f2f8fc;
 }
-/* Mobile Navigation */
-@media (max-width: 768px) {
-    .nav-links-desk {
-        display: none;
-    }
-    .nav-links {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-      text-decoration: none;
-    }
-  
-    .nav-links.open {
-      max-height: 300px; /* Adjust based on the number of links */
-    }
-  
-    .menuIcon {
-      display: block;
-      font-size: 30px;
-      background-color: #D44D5C;
-      border-radius: 20px;
-      width: 15px;
-      color: white;
-      cursor: pointer;
-    }
-  }
+   
 img {
     height: 80px;
 }
@@ -40,17 +14,18 @@ ul {
 li a {
     font-size: 24px;
     text-decoration: none;
-    color: #161110;
+    color: #292929;
     font-weight: 600;
+}
+
+li a:focus {
+  color: #D44D5C;
 }
 
 .contact{
     font-size:20px;
     color: #161110;
     font-weight: 600;
-    background: linear-gradient(35deg, #d8357fcb,  #d44d5de3),
-                    linear-gradient(10deg, #c23cc79f, #d8357fcb),
-                    linear-gradient(10deg, #e6086c15, #d44d5de3);
 }
 
 .nav-links{
@@ -61,3 +36,26 @@ li a {
   
   }
 
+  @media screen and (max-width: 769px) {
+    .navbar {
+      display: none !important;
+    }
+
+    .navbarMob {
+      height: 90px;
+      background-color: #f2f8fc !important;
+    }
+
+    .offcanvas {
+      background: #f2f8fc !important;
+      height: 316px;
+      border-bottom-left-radius:25px;
+    }
+
+  }
+
+  @media (min-width: 769px) {
+    .navbarMob {
+      display:none !important;
+    }
+  }

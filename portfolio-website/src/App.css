@@ -2,16 +2,34 @@
   margin: 0 auto;
 }
 
+.btn-disabled {
+  font-family: Poppins;
+  border-radius: 10px;
+  background-color: #ffffff15 !important ;
+  font-size: 20px;
+  color: #e73c7e !important;
+  font-weight: 500;
+  border:#ffffff15;
+
+}
+
 .btn-primary {
   font-family: Poppins;
   border-radius: 20px;
-  background-color: #D44D5C;
-  border:#D44D5C;
+  border:#e73c7e;
+  background-color: #f2f8fc;
+  color: #e73c7e !important;
+  font-weight: 500;
+
 }
 
 .btn-primary:hover {
   font-family: Poppins;
   border-radius: 20px;
-  background-color: #d44d5de3;
-  border:#D44D5C;
+  background-color: #e73c7e;
+  color:#f2f8fc !important;
+}
+
+.btn-close {
+  color: #292929 !important;
 }

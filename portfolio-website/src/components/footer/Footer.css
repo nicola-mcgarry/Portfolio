@@ -1,11 +1,30 @@
 .footer {
-    background-color: #F5E9E2;
-    color: #ccc;
+    background-color: #ffffff0e;
+    color: #1611102c;
+}
+
+.mailToLink, .social {
+    color: #e73c7e !important;
+    display: inline-block;
+    border-bottom: 2px solid e73c7e;
+    padding-bottom: 5px;
+}
+
+.pod-contact {
+    background-color: #ffffff0e;
+    height: 100px;
+    background-color: #ffffff0e;
+    color: #F5E9E2;
+}
+
+.copyright{
+    font-size: 10px;
+    color: #f5e9e22f;
 }
 
 .footer-curve {
     position: absolute;
-    bottom: -1021px;    
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -22,4 +41,8 @@
 
 .footer-curve .shape-fill {
     fill: #F5E9E2;
+}
+
+.icon {
+    width:40px;
 }

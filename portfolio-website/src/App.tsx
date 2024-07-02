@@ -1,3 +1,4 @@
+import Home  from './components/home/Home'
 import './App.css'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <Header/>
-      <About/>
+      <Home />
+      <About/> 
       <Projects />
       <Contact/>
       <Footer/>

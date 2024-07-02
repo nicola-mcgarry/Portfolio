@@ -1,0 +1,69 @@
+#home {
+    height:80vh;
+    padding-top:200px;
+    color: #f2f8fc;              
+    padding: 218px 100px 0px 100px;
+}
+
+
+span {
+    color: #e73c7e;
+    font-size:50px;
+}
+
+p{
+    font-weight:500;
+}
+
+.top-curve {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0;
+}
+
+.top-curve svg {
+    position: relative;
+    display: block;
+    width: calc(198% + 1.3px);
+    height: 76px;
+    transform: rotateY(180deg);
+    
+}
+
+.top-curve .shape-fill {
+    fill: #f2f8fc;
+    
+}
+
+.bottom-curve {
+    position: absolute;
+    bottom: -109px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.bottom-curve svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 61px;
+}
+
+.bottom-curve .shape-fill {
+    fill: #f2f8fc;
+}
+
+.intro {
+    border: 1px solid #1611102c;
+    border-radius: 25px;
+    height: 320px;
+    width: 800px;
+    background-color: #ffffff0e;
+}
+
