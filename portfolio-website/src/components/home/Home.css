@@ -1,6 +1,6 @@
 #home {
-    height:80vh;
-    padding-top:200px;
+    height:100vh;
+    padding-top:140px;
     color: #f2f8fc;              
     padding: 218px 100px 0px 100px;
 }
@@ -60,10 +60,14 @@ p{
 }
 
 .intro {
-    border: 1px solid #1611102c;
+    border: 10px solid #1611102c;
     border-radius: 25px;
-    height: 320px;
-    width: 800px;
+    height: 50vh;
     background-color: #ffffff0e;
 }
 
+.ipad-btn {
+    background-color: #292929;
+    border-radius: 50px;
+    width: 10px;
+}

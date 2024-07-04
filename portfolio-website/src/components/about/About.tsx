@@ -20,6 +20,7 @@ const About = () => {
                             <div className="col btn btn-disabled disabled me-3 mt-3">CSS/SASS</div>
                             <div className="col btn btn-disabled disabled me-3 mt-3">BootStrap</div>
                             <div className="col btn btn-disabled disabled me-3 mt-3">React</div>
+                            <div className="col btn btn-disabled disabled me-3 mt-3">TypeScript</div>
                             <div className="col btn btn-disabled disabled me-3 mt-3">JavaScript</div>                 
                             <div className="col btn btn-disabled disabled me-3 mt-3">ASP.NET</div>
                             <div className="col btn btn-disabled disabled me-3 mt-3">MVC</div>

@@ -1,7 +1,7 @@
 import Logo from '../../assets/N-M.png'
 import { RxHamburgerMenu } from "react-icons/rx";
-import { RxCrossCircled } from "react-icons/rx";
 import './Header.css'
+import { Button } from '@mui/material';
 
 const Header = () => {
     return(
@@ -11,16 +11,16 @@ const Header = () => {
                 <img src={Logo} alt="logo"/>
                     <ul className="nav-links-desk d-flex gap-4 pt-2 align-content-end align-items-center">
                         <li >
-                            <a  href="#home">Home</a>
+                            <a className='nav-link' href="#home">Home</a>
                         </li>
                         <li >
-                            <a  href="#about">About</a>
+                            <a className='nav-link' href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a className='nav-link' href="#projects">Projects</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a className='nav-link' href="#contact">Contact</a>
                         </li>
                     </ul>        
             </nav>   
@@ -31,9 +31,9 @@ const Header = () => {
             <nav className="navbarMob align-items-center ps-3 pe-3 pt-2">
                 <div className="d-flex align-items-center ">
                     <img src={Logo} alt="logo" className='me-auto'/>
-                    <button className="navbar-toggler d-flex justify-content-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <Button className="hamburger d-flex justify-content-end" data-bs-toggle="offcanvas" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-label="Toggle navigation">
                         <RxHamburgerMenu style={{fontSize: 40}}/>
-                    </button>
+                    </Button>
                 </div>
             </nav>
             <div className="offcanvas offcanvas-end" id="navbarToggleExternalContent">
@@ -44,16 +44,16 @@ const Header = () => {
                 </div>           
                 <ul className="pt-2 d-flex flex-column justify-content-end">
                         <li >
-                            <a  href="#home">Home</a>
+                            <a className='nav-link' href="#home">Home</a>
                         </li>
                         <li >
-                            <a  href="#about">About</a>
+                            <a className='nav-link' href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a className='nav-link' href="#projects">Projects</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#contact" className='nav-link'>Contact</a>
                         </li>
                 </ul>
             </div>

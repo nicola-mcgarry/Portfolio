@@ -1,15 +1,12 @@
 import './Footer.css'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import { FaCodepen } from "react-icons/fa";
-import MailTo from '../contact/MailTo';
+
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return(
         <>
-           <div className='pod-contact d-flex justify-content-evenly'>
+           {/* <div className='pod-footerContact d-flex justify-content-evenly'>
                 <div className='mt-3'>
                     <h3>Socials</h3>
                     <div className='d-flex justify-content-center'>
@@ -23,14 +20,14 @@ const Footer = () => {
                         <a href="https://github.com/nicola-mcgarry" 
                             rel="noopener noreferrer" 
                             target='_blank' 
-                            className='social'
+                            className='social me-2'
                             title="gitHub">
                             <GitHubIcon className='icon' />
                         </a>
                         <a href="https://codepen.io/NMcGarry" 
                             rel="noopener noreferrer" 
                             target='_blank' 
-                            className='social'
+                            className='social me-2'
                             title="codePen">
                             <FaCodepen  className='icon' />
                         </a>
@@ -43,10 +40,10 @@ const Footer = () => {
                     <MailTo label="Email me"mailto="mailto:nicolaemcgarry@gmail.com"/>
                     </div>
                 </div>
-            </div>    
-                <footer className='footer d-flex justify-content-end pe-5'>        
+            </div>     */}
+                <footer className='footer d-flex justify-content-end'> 
                     <div>
-                        <p className='copyright'>&copy; {currentYear} Nicola McGarry. </p>
+                        <p className='copyright align-self-center pe-5 pt-3'>&copy; {currentYear} Nicola McGarry</p>
                     </div>   
             
                 </footer>

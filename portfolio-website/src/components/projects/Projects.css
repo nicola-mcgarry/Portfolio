@@ -5,30 +5,29 @@
 
 .project{
     background-color: #ffffff0e;
-    height: 340px;
+    height: auto;
     border-radius: 24px;
-    border: 1px solid #1611102c;
+    border: 1px solid #e73c7e;
     border-radius: 25px;
     background-color: #ffffff0e;
 
 }
 
-@media only screen and (max-width: 1440px) {
-    .project {
-        height: 470px;
-    }
+.project:hover {
+    border: 1px solid #e73c7e;
 }
 
-    .projectImg {
-        /* width: 305px;
-        height: auto; */
-        border-top-right-radius: 14px;
-        border-top-left-radius: 14px;
-    }
 
-
+.projectImg {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
 
 .Link {
     color: #e73c7e !important;
     text-decoration: none;
 }
+
+h6 {
+    font-size: 13px;
+  }
