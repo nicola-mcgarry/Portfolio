@@ -6,9 +6,9 @@ const About = () => {
             <div className='row'>
                 <div className='col-md-12 d-flex justify-content-center'>
                     <div className='pod-about p-5 me-5 ms-5'>
-                            <p>I have been a Developer since 2019. when I landed my Apprenticeship, which i completed in 2021. </p>
-                            <p>As someone who has both a creative and logical side, I feel at home as a Frontend Developer.</p>
-                            <p></p>
+                            <p>Hello! I'm an enthusiastic and approachable Software Developer with a strong focus on front-end development. With five years of commercial experience in Full Stack Software Development, I have honed my skills in creating dynamic, user-friendly interfaces that enhance user experience and engagement.</p>
+                            <p>My expertise lies in front-end technologies, where I specialize in leveraging HTML, CSS, JavaScript, React, and Angular to build responsive and visually appealing websites and applications. However, my full-stack background allows me to understand the bigger picture and create more efficient and seamless front-end solutions.</p>
+                            <p>I thrive in both collaborative team settings and independent projects, always maintaining motivation and a positive attitude. My approach to development is rooted in a balance of creativity and technical proficiency, ensuring that I deliver high-quality, innovative solutions. I am also adept at time-management and organization, which helps me meet deadlines and exceed expectations.</p>               
                     </div>
                 </div>
             </div>
