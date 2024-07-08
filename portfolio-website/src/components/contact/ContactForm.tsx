@@ -59,11 +59,6 @@ const ContactForm: React.FC = () => {
     <>
       <form onSubmit={handleSubmit} data-netlify={"true"}>
         <div>
-          <TextField 
-            type="hidden"
-            name="form-name"
-            value ="contact"
-            />
           <TextField
             label="Name"
             name="name"
