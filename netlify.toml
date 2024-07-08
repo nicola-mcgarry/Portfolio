@@ -1,0 +1,10 @@
+[build]
+  base = "portflio-website"
+  publish = "portfolio-website/dist"
+  functions = "../send-contact-form/functions"
+
+[[redirects]]
+  from = "/send-contact-form"
+  to = "/.netlify/functions/send-contact-form"
+  status = 200
+  force = true
